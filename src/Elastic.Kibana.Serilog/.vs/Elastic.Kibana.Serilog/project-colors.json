@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2752a4de-3a40-43c0-8665-cb5ea086c803": {
+      "ProjectGuid": "2752a4de-3a40-43c0-8665-cb5ea086c803",
+      "DisplayName": "Elastic.Kibana.Serilog",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

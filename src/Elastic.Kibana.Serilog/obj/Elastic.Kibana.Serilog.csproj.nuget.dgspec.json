@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\learn project\\elastic-kibana\\src\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog.csproj": {}
+  },
+  "projects": {
+    "F:\\learn project\\elastic-kibana\\src\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\learn project\\elastic-kibana\\src\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog.csproj",
+        "projectName": "Elastic.Kibana.Serilog",
+        "projectPath": "F:\\learn project\\elastic-kibana\\src\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog.csproj",
+        "packagesPath": "C:\\Users\\mmous\\.nuget\\packages\\",
+        "outputPath": "F:\\learn project\\elastic-kibana\\src\\Elastic.Kibana.Serilog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mmous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
